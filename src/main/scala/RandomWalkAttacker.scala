@@ -64,8 +64,7 @@ class RandomWalkAttacker(private val howManyWalks: Int,
                                       ): Set[VertexId] = {
     val broadcastPerturbedGraphX = sc.broadcast(perturbedGraphX)
     val allVertices = broadcastPerturbedGraphX.value.vertices.map(_._1).collect()
-    //    val randomInitialVertices = Random.shuffle(allVertices.toList).take(howManyWalks)
-    val randomInitialVertices = Random.shuffle(allVertices.toList).filter(vertexId => vertexId == 11L)
+    val randomInitialVertices = Random.shuffle(allVertices.toList).take(howManyWalks)
     broadcastPerturbedGraphX.unpersist()
     logger.info(s"RandomWalkAttacker - random initial vertices: $randomInitialVertices")
     randomInitialVertices.toSet
