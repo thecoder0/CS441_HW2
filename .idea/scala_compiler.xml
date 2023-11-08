@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="cs441_hw2_5297" />
+    <profile name="sbt 2" modules="CS441_HW2">
+      <option name="deprecationWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="--explain-types" />
+      </parameters>
+    </profile>
+  </component>
+</project>

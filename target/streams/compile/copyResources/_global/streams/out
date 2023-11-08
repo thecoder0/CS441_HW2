@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/natalia_s/Desktop/CS/CS441/workspace/HW2/CS441_HW2/src/main/resources/originalGraph.ngs,/Users/natalia_s/Desktop/CS/CS441/workspace/HW2/CS441_HW2/target/scala-3.2.2/classes/originalGraph.ngs)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/natalia_s/Desktop/CS/CS441/workspace/HW2/CS441_HW2/src/main/resources/perturbedGraph.dot,/Users/natalia_s/Desktop/CS/CS441/workspace/HW2/CS441_HW2/target/scala-3.2.2/classes/perturbedGraph.dot)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/natalia_s/Desktop/CS/CS441/workspace/HW2/CS441_HW2/src/main/resources/application.conf,/Users/natalia_s/Desktop/CS/CS441/workspace/HW2/CS441_HW2/target/scala-3.2.2/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/natalia_s/Desktop/CS/CS441/workspace/HW2/CS441_HW2/src/main/resources/perturbedGraph.ngs,/Users/natalia_s/Desktop/CS/CS441/workspace/HW2/CS441_HW2/target/scala-3.2.2/classes/perturbedGraph.ngs)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/natalia_s/Desktop/CS/CS441/workspace/HW2/CS441_HW2/src/main/resources/originalGraph.dot,/Users/natalia_s/Desktop/CS/CS441/workspace/HW2/CS441_HW2/target/scala-3.2.2/classes/originalGraph.dot)[0m
