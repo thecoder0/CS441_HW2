@@ -1,0 +1,9 @@
+Student: Natalia Szlaszynski
+
+=> 4/5 Scalatests = -0.2%
+=> No AWS deployment video = -0.5%
+
+Good solution! You have a good understanding of Spark and how to implement it.
+Good job!
+
+Final Grade: 14.3%
