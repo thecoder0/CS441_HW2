@@ -20,6 +20,7 @@ import scala.jdk.CollectionConverters.*
 import scala.jdk.OptionConverters.RichOptional
 import scala.util.Random
 
+
 object Main {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("GraphMatching").setMaster("local[4]")
@@ -75,6 +76,8 @@ object Main {
     walkResult.foreach(pathThatWasWalked => {
       logger.info(s"Path that was walked: ${pathThatWasWalked}")
     })
+
+
   }
 
   def loadNetGraph(isOriginal: Boolean): NetGraph = {

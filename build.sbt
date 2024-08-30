@@ -18,7 +18,7 @@ lazy val dependencies = Seq(
   "org.scalatest" %% "scalatest" % scalaTestVersion % Test,
   "org.scalatestplus" %% "mockito-4-2" % "3.2.12.0-RC2" % Test,
   "com.typesafe" % "config" % typeSafeConfigVersion,
-//  "ch.qos.logback" % "logback-classic" % logbackVersion,
+  "org.yaml" % "snakeyaml" % "1.29",
   "guru.nidi" % "graphviz-java" % graphVizVersion,
   "org.jgrapht" % "jgrapht-core" % jGraphTlibVersion,
   "com.google.guava" % "guava" % guavaVersion,
